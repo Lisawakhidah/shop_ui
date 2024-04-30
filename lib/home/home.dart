@@ -5,6 +5,22 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: ListView(
+        children: [
+          Row(
+            children: [
+              ClipRRect(
+                child: Image.asset(
+                  'assets/image/elips.png',
+                  width: 44,
+                  height: 44,
+                ),
+              )
+            ],
+          )
+        ],
+      ),
+    );
   }
 }

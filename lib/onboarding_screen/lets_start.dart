@@ -13,7 +13,7 @@ class OnboardingScreen extends StatelessWidget {
           Container(
             width: double.infinity,
             height: 480,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
                 color: Color(0xFFF0F4EF),
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(150),
@@ -30,14 +30,6 @@ class OnboardingScreen extends StatelessWidget {
                   fontSize: 40,
                   fontWeight: FontWeight.w600,
                 ))
-
-                // TextStyle(
-                //   color: Color(0xFF1E271A),
-                //   fontSize: 45,
-                //   fontFamily: 'google',
-                //   fontWeight: FontWeight.w600,
-                //   height: 0,
-                // ),
                 ),
           ),
           InkWell(
