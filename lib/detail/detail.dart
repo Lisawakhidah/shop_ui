@@ -28,7 +28,7 @@ class detailhome extends StatelessWidget {
                 child: SizedBox(
                   width: 596,
                   height: 836,
-                  child: Image.asset('')
+                  child: SvgPicture.asset('assets/icon/Vector_.svg')
                 ),
               ),
               Positioned(
@@ -36,18 +36,18 @@ class detailhome extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(22),
                   child: Container(
-                    width: 375,
+                    width: 395,
                     height: 343,
                     decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color: Color(0x33717171),
+                          color: Color(0x33717191),
                           offset: Offset(0, -1),
                           blurRadius: 12.5,
                         ),
                       ],
                     ),
-                    child: Image.asset('assets/image/favorite.png')
+                    // child: Image.asset('assets/image/star.png')
                   ),
                 ),
               ),
@@ -93,7 +93,7 @@ class detailhome extends StatelessWidget {
                                         child: SizedBox(
                                           width: 10,
                                           height: 20,
-                                          child: Image.asset('assets/image/Vector(1).png'),
+                                          child: SvgPicture.asset('assets/icon/back.svg')
                                         ),
                                       ),
                                     ),
@@ -114,10 +114,10 @@ class detailhome extends StatelessWidget {
                                         width: 21,
                                         height: 18,
                                         child: SizedBox(
-                                          width: 21,
-                                          height: 18,
+                                          width: 222,
+                                          height: 335,
                                           child: SvgPicture.asset(
-                                            'assets/icon/minus.svg',
+                                            'assets/icon/favorite.svg',
                                           ),
                                         ),
                                       ),
@@ -183,7 +183,7 @@ class detailhome extends StatelessWidget {
                                               width: 17.1,
                                               height: 16.4,
                                               child: SvgPicture.asset(
-                                                'assets/vectors/vector_3_x2.svg',
+                                                'assets/icon/minus.svg',
                                               ),
                                             ),
                                           ),
