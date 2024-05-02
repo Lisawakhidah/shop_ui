@@ -18,6 +18,7 @@ class _CategoryState extends State<Category> {
     return Column(
       children: [
         Text(
+          textAlign: TextAlign.start,
           'Category',
           style: GoogleFonts.poppins(
             textStyle: TextStyle(

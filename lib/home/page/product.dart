@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:shop_ui/detail/detail.dart';
 
 class Product extends StatefulWidget {
   const Product({
@@ -27,8 +28,14 @@ class _ProductState extends State<Product> {
         shrinkWrap: true,
         physics: const NeverScrollableScrollPhysics(),
         itemBuilder: (BuildContext context, int index) {
+          
           return InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context, MaterialPageRoute(
+                  builder: (BuildContext context) =>  detailhome()
+                )
+              );},
             child: Container(
                 decoration: BoxDecoration(
                   color: const Color(0xFFF0F4EF),

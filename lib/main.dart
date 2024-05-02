@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_ui/detail/detail.dart';
+import 'package:shop_ui/home/page/home.dart';
 import 'package:shop_ui/onboarding_screen/lets_start.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home:  detailhome(),
+      home:  HomePage(),
     );
   }
 }
