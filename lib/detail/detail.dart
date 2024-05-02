@@ -72,34 +72,37 @@ class detailhome extends StatelessWidget {
                           child: SizedBox(
                             height: 499,
                             child: Container(
-                              padding: EdgeInsets.fromLTRB(1, 49, 0,56),
+                              padding: EdgeInsets.fromLTRB(1, 49, 0, 56),
                               child: Row(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Container(
-                                    decoration: BoxDecoration(
-                                      color: Color(0xFFB5C9AD),
-                                      borderRadius: BorderRadius.circular(22),
-                                    ),
+                                    margin: EdgeInsets.fromLTRB(0, 0, 14.3, 0),
                                     child: Container(
-                                      width: 44,
-                                      height: 44,
-                                      child: Positioned(
-                                        right: 17,
-                                        bottom: 12,
-                                        child: Container(
-                                          width: 10,
-                                          height: 20,
-                                          child: SizedBox(
-                                              width: 10,
-                                              height: 20,
-                                              child: SvgPicture.asset(
-                                                  'assets/icon/back.svg')),
+                                        decoration: BoxDecoration(
+                                          color: Color(0xFFB5C9AD),
+                                          borderRadius:
+                                              BorderRadius.circular(22),
                                         ),
-                                      ),
-                                    ),
+                                        child: Container(
+                                          width: 28,
+                                          height: 28,
+                                          child: Positioned(
+                                            right: 7,
+                                            top: 8.7,
+                                            child: Container(
+                                              width: 10.7,
+                                              height: 10.7,
+                                              child: SizedBox(
+                                                  width: 9.7,
+                                                  height: 9.7,
+                                                  child: Image.asset(
+                                                      'assets/image/Vector(1).png')),
+                                            ),
+                                          ),
+                                        )),
                                   ),
                                   Container(
                                     decoration: BoxDecoration(
@@ -107,19 +110,21 @@ class detailhome extends StatelessWidget {
                                       borderRadius: BorderRadius.circular(22),
                                     ),
                                     child: Container(
-                                      width: 44,
-                                      height: 44,
-                                      child: Positioned(
-                                        right: 11.5,
-                                        bottom: 11.5,
-                                        child: Container(
-                                          width: 21,
-                                          height: 18,
-                                          child: SizedBox(
-                                              width: 22,
-                                              height: 15,
+                                      width: 28,
+                                          height: 28,
+                                          child: Positioned(
+                                            right: 7,
+                                            top: 8.7,
+                                            child: Container(
+                                              width: 10.7,
+                                              height: 10.7,
+                                              child: SizedBox(
+                                                  width: 9.7,
+                                                  height: 9.7,
                                               child: Image.asset(
-                                                  'assets/image/favorite.png')),
+                                                'assets/image/favorite.png',
+                                                
+                                              )),
                                         ),
                                       ),
                                     ),
@@ -229,30 +234,31 @@ class detailhome extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Container(
-                                       margin: EdgeInsets.fromLTRB(0, 0, 14.3, 0),
+                                        margin:
+                                            EdgeInsets.fromLTRB(0, 0, 14.3, 0),
                                         child: Container(
                                           decoration: BoxDecoration(
-                                          color: Color(0xFFB5C9AD),
-                                          borderRadius:
-                                              BorderRadius.circular(14),
-                                        ),
-                                        child: Container(
-                                          width: 28,
-                                          height: 28,
-                                          child: Positioned(
-                                            right: 7,
-                                            top: 8.7,
-                                            child: Container(
-                                              width: 10.7,
-                                              height: 10.7,
-                                              child: SizedBox(
-                                                width: 9.7,
-                                                height: 9.7,
-                                                child: SvgPicture.asset('assets/icon/minus.svg')
+                                            color: Color(0xFFB5C9AD),
+                                            borderRadius:
+                                                BorderRadius.circular(14),
+                                          ),
+                                          child: Container(
+                                            width: 28,
+                                            height: 28,
+                                            child: Positioned(
+                                              right: 7,
+                                              top: 8.7,
+                                              child: Container(
+                                                width: 10.7,
+                                                height: 10.7,
+                                                child: SizedBox(
+                                                    width: 9.7,
+                                                    height: 9.7,
+                                                    child: SvgPicture.asset(
+                                                        'assets/icon/minus.svg')),
                                               ),
                                             ),
                                           ),
-                                        ),
                                         ),
                                       ),
                                       Container(
@@ -288,7 +294,6 @@ class detailhome extends StatelessWidget {
                                                 height: 9.7,
                                                 child: Image.asset(
                                                   'assets/image/Vector.png',
-                                                  
                                                 ),
                                               ),
                                             ),
@@ -343,30 +348,30 @@ class detailhome extends StatelessWidget {
                               ),
                             ),
                             Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Container(
-                                  width: 789,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF475E3E),
-                                  borderRadius: BorderRadius.circular(100),
-                                ),
-                                child: Container(
-                                  padding: EdgeInsets.fromLTRB(0, 14.5, 0, 14.5),
-                                  child: Text(
-                                    textAlign: TextAlign.center,
-                                    'Buy Now!',
-                                    style: GoogleFonts.getFont(
-                                      'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 18,
-                                      color: Color(0xFFF0F4EF),
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Container(
+                                    width: 789,
+                                    decoration: BoxDecoration(
+                                      color: Color(0xFF475E3E),
+                                      borderRadius: BorderRadius.circular(100),
+                                    ),
+                                    child: Container(
+                                      padding:
+                                          EdgeInsets.fromLTRB(0, 14.5, 0, 14.5),
+                                      child: Text(
+                                        textAlign: TextAlign.center,
+                                        'Buy Now!',
+                                        style: GoogleFonts.getFont(
+                                          'Poppins',
+                                          fontWeight: FontWeight.w500,
+                                          fontSize: 18,
+                                          color: Color(0xFFF0F4EF),
+                                        ),
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ),
-                              ]
-                            ),
+                                ]),
                           ],
                         ),
                       ),
